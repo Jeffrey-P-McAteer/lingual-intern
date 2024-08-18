@@ -1,3 +1,11 @@
+
+use clap::Parser;
+
+mod structs;
+
 fn main() {
-    println!("Hello, world!");
+    let args = structs::Args::parse();
+
+    eprintln!("args = {:?}", args);
+
 }

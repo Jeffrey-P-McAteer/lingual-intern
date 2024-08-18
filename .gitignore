@@ -1,0 +1,10 @@
+/target
+/data
+/out
+/bin
+/site-packages
+*site-packages
+
+
+
+
